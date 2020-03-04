@@ -22,8 +22,8 @@ class TicTacToe
     @board[index] = token 
   end
   
-  def position_taken(index)
-    ((@board[index] == 'X') || (@board[index] == 'O'))
+  def position_taken(index_i)
+    ((@board[index_i] == 'X') || (@board[index_i] == 'O'))
   end
     
   
